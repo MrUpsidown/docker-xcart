@@ -26,6 +26,11 @@ To provide a good user-experience and fast sync of the filesystem, this stack us
 ## Setting up
 
 ### Getting started
+
+Clone this repository into your new project folder, eg. from within your `Sites/` folder:
+
+`mkdir xcart && git clone git@github.com:MrUpsidown/docker-xcart.git xcart`
+
 [Download](https://www.x-cart.com/download.html) the latest X-Cart software and place the archive in the `/app` folder. Unarchive it from there. You should now have the following structure: `<your project folder>/app/xcart/<x-cart files>`.
 
 ### PHP configuration
