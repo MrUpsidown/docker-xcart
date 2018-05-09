@@ -1,0 +1,10 @@
+# Just mounting the sync image - not redefining anything else
+
+version: "2"
+services:
+  web:
+    volumes:
+      - web-sync:/app:nocopy # will be mounted on /app
+volumes:
+  web-sync:
+    external: true

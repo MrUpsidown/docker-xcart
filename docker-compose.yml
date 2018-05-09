@@ -1,0 +1,33 @@
+version: '2'
+services:
+  web:
+    image: 0010b0c32693
+    environment:
+      - ALLOW_OVERRIDE=true
+    ports:
+      - "80:80"
+      - "443:443"
+    links:
+      - db
+      - mailhog
+    working_dir: /app
+    volumes:
+      - ./conf/xcart.ini:/usr/local/etc/php/conf.d/xcart.ini:cached
+  db:
+    image: mariadb
+    volumes:
+      - db-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: xcart
+      MYSQL_PASSWORD: xcart
+      MYSQL_DATABASE: xcart
+    ports:
+      - "3306:3306"
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+volumes:
+  db-data:

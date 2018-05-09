@@ -33,14 +33,20 @@ Add your own PHP customizations in the `/conf/xcart.ini` file.
 
 If you make changes to this file (after creating your containers), you must run `service php-fpm restart` from within the web container for your changes to be taken into account.
 
-### Start up
-Open a terminal window and `cd` to your project folder, for example `cd Sites/xcart` then start the stack with the following command:
+### Usage
+
+#### Start
+Open a terminal window and `cd` to your project folder (where the `docker-compose.yml` file is located), for example `cd Sites/xcart` then start the stack with the following command:
 
 `docker-sync-stack start`
 
+> The first time you start your docker stack, it will take some time as docker-sync will copy all the X-Cart files to the sync container. This is normal behavior. After the first sync, starting the stack should be much faster.
+
+#### Stop
 To stop your containers, hit `ctrl + c` from within the same terminal window.
+
+#### Remove
 To remove your containers, run:
 
 `docker-compose down && docker-sync clean`
 
-> The first time you start your docker stack, it will take some time as docker-sync will copy all the X-Cart files to the sync container. This is normal behavior. After the first sync, starting the stack should be much faster.
