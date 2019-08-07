@@ -10,7 +10,7 @@ Your site will be available at http://0.0.0.0 so if you wish to have a dedicated
 You should then be able to reach your website with http://mysite.xcart
 
 ### PHP
-This image is based on [webdevops/php-apache:7.1](https://dockerfile.readthedocs.io/en/latest/content/DockerImages/dockerfiles/php-apache.html) so it runs PHP 7.1 with Apache web server and all the necessary libraries and other X-Cart requirements.
+This image is based on [webdevops/php-apache:7.2](https://dockerfile.readthedocs.io/en/latest/content/DockerImages/dockerfiles/php-apache.html) so it runs PHP 7.2 with Apache web server and all the necessary libraries and other X-Cart requirements.
 
 ### Database
 The database is [MariaDB](https://mariadb.org/) and it runs in its own container.
