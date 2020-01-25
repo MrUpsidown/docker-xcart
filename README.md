@@ -55,3 +55,6 @@ To remove your containers, run:
 
 `docker-compose down && docker-sync clean`
 
+### Notes
+
+If you are here because you want to give X-Cart a try, my advice is: just don't! X-Cart is the worst e-commerce framework ever built. Full stop.
