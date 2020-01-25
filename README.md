@@ -59,6 +59,6 @@ To remove your containers, run:
 
 If you are here because you want to give X-Cart a try, my advice is: just don't! X-Cart is the worst e-commerce framework ever built. Full stop.
 
-The developer documentation is almost inexistant, their support is as unhelpful as it can be, the source code is a total mess and mostly undocumented, which makes the learning curve quite hard. Not to mention their "forum" where basically 90% of the questions remain unanswered. The developer community is non-existent. Any extension you will develop based on their code will become very hard to maintain, thanks to the "Decorator Pattern".
+The developer documentation is a total joke, lacking tons of information that should be in there. Their support is as unhelpful as it can be. The source code is a total mess and mostly undocumented. Not to mention their "forum" where basically 90% of the questions remain unanswered. All these points make the learning curve really hard. The developer community is non-existent. Any extension you will develop based on their code will become very hard to maintain, thanks to the terrible design pattern they choose.
 
-Stay away!
+Stay away and be safe!
