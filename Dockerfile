@@ -1,4 +1,4 @@
-FROM webdevops/php-apache:7.1
+FROM webdevops/php-apache:7.2
 
 MAINTAINER A. Marquis <mrupsidown@gmail.com>
 
